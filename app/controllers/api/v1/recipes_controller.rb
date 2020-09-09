@@ -36,5 +36,6 @@ class Api::V1::RecipesController < ApplicationController
 
   def recipe
   	@recipe ||= Recipe.find(params[:id])
+  end
 
 end
